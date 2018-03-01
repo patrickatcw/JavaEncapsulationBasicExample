@@ -8,10 +8,8 @@ public class Player {
 
     //step 2 make fields, made public instead of private
     //public String name;
-    public String fullName;
+    public String name;
 
-    //step 9 changing name to fullName above, error in main
-    //have to fix in step 10
     public int health;
     public String weapon;
 
