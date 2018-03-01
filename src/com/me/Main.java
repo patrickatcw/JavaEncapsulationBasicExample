@@ -76,3 +76,13 @@ public class Main {
 }
 
 //go to player class for step 9
+
+//complete results;
+/*
+Remaining health = 10
+Player knocked out
+Remaining health = -1
+Remaining health = 189
+Initial health is 50
+Initial health is 100
+ */
