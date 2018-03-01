@@ -8,8 +8,9 @@ public class Player {
 
     //step 2 make fields, made public instead of private
     //public String name;
-    public String name;
-
+    public String fullName;
+    //step 9 changing name to fullName above, error in main
+    //have to fix in step 10
     public int health;
     public String weapon;
 
@@ -23,6 +24,7 @@ public class Player {
     }
 
     //step 4 method for health remaining
+    //then go to main class for step 5
     public int healthRemaining(){
         return this.health;
 

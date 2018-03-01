@@ -15,10 +15,13 @@ public class Main {
         // but with no fields, so we will initialize them in now
         //this is why constructors are important, b/c in larger programs
         // creating these here can be forgotten
-
         //step 6
         //player.name = "Patrick";
-        player.name = "Patrick";
+        //step 10 fix error name to fullName
+        //step 11 now lets create a new class Enhanced Player
+        //and do it the correct way to show why encapsulation is
+        // the way to go
+        player.fullName = "Patrick";
         player.health = 20;
         player.weapon = "Sword";
         //accessed b/c we set fields to public in player class step 2
@@ -59,7 +62,17 @@ public class Main {
         Remaining health = 189
          */
 
+        //step 18, then step 19 run code
+        EnhancedPlayer player1 = new EnhancedPlayer("Patrick", 50, "Sword");
+        System.out.println("Initial health is " + player1.getHealth());
+        //print result; Initial health is 50
+
+        //step 20 change health to show if statement working
+        EnhancedPlayer player2 = new EnhancedPlayer("Patrick", 200, "Sword");
+        System.out.println("Initial health is " + player2.getHealth());
+        //print result; Initial health is 100
 
     }
-
 }
+
+//go to player class for step 9
